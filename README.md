@@ -31,8 +31,27 @@ pip install -v -e .
 Moreover, please refer to [SODA-mmrotate](https://github.com/shaunyuan22/SODA-mmrotate) for MMRotate installation if you want to perform evaluation on the SODA-A dataset.
 
 ## Training
+ - Single GPU:
+```
+python ./tools/train.py ${CONFIG_FILE} 
+```
+
+ - Multiple GPUs:
+```
+bash ./tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM}
+```
 
 ## Evaluation
+ - Single GPU:
+```
+python ./tools/test.py ${CONFIG_FILE} ${WORK_DIR} --eval bbox
+```
+
+ - Multiple GPUs:
+```
+bash ./tools/dist_test.sh ${CONFIG_FILE} ${WORK_DIR} ${GPU_NUM} --eval bbox
+```
+
 
 ## Result
 ### Result on SODA-D
