@@ -23,7 +23,7 @@ git clone https://github.com/shaunyuan22/CFINet
 cd CFINet
 pip install -v -e .
 ```
-Moreover, please refer to [SODA-mmrotate](https://github.com/shaunyuan22/SODA-mmrotate) if you want to perform evaluation on the SODA-A dataset.
+Moreover, please refer to [SODA-mmrotate](https://github.com/shaunyuan22/SODA-mmrotate) for MMRotate installation if you want to perform evaluation on the SODA-A dataset.
 
 ## Training
 
