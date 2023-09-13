@@ -38,7 +38,7 @@ Our work is based on the large-scale small object detection benchmark **SODA**, 
 | **Method** | **Schedule** | **$AP$** | **$AP_{50}$** | **$AP_{75}$** | **$AP_{eS}$** | **$AP_{rS}$** | **$AP_{gS}$** | **$AP_N$** |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
 | Rotated RetinaNet | $1 \times$ | 26.8 | 63.4 | 16.2 | 9.1 | 22.0 | 35.4 | 28.2 | 
-| S$^2$A-Net | $1 \times$ | 28.3 | 69.6 | 13.1 | 10.2 | 22.8 | 35.8 | 29.5 | 
+| S $^$ A-Net | $1 \times$ | 28.3 | 69.6 | 13.1 | 10.2 | 22.8 | 35.8 | 29.5 | 
 | Oriented RepPoints | $1 \times$ | 26.3 | 58.8 | 19.0 | 9.4 | 22.6 | 32.4 | 28.5 |  
 | DHRec | $1 \times$ | 30.1 | 68.8 | 19.8 | 10.6 | 24.6 | 40.3 | 34.6 | 
 | Rotated Faster RCNN | $1 \times$ | 32.5 | 70.1 | 24.3 | 11.9 | 27.3 | 42.2 | 34.4 | 
