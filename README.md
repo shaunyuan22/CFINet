@@ -17,6 +17,7 @@ Our work is based on the large-scale small object detection benchmark **SODA**, 
 ## Evaluation
 
 ## Result
+### Result on SODA-D
 | **Method** | **Schedule** | **$AP$** | **$AP_{50}$** | **$AP_{75}$** | **$AP_{eS}$** | **$AP_{rS}$** | **$AP_{gS}$** | **$AP_N$** |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
 | RetinaNet | $1 \times$ | 28.2 | 57.6 | 23.7 | 11.9 | 25.2 | 34.1 | 44.2 | 
@@ -33,7 +34,5 @@ Our work is based on the large-scale small object detection benchmark **SODA**, 
 | RFLA | $1 \times$ | 29.7 | 60.2 | 25.2 | 13.2 | 26.9 | 35.4 | 44.6 | 
 | Ours | $1 \times$ | 30.7 | 60.8 | 26.7 | 14.7 | 27.8 | 36.4 | 44.6 | 
 
-| **Method** | RetinaNet | FCOS | RepPoints | ATSS | YOLOX | CornerNet | CenterNet | Deformable-DETR | Sparse RCNN | Faster RCNN | Cascade RPN | RFLA | Ours | 
-
-
+### Result on SODA-A
 
