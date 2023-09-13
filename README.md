@@ -10,7 +10,7 @@ This is the official implementation of our paper titled "Small Object Detection 
  - TorchVision 0.11.0
  - mmcv-full 1.5.0
 
-## Datasets
+## :open_file_folder: Datasets
 Our work is based on the large-scale small object detection benchmark **SODA**, which comprises two sub datasets SODA-D and SODA-A. Download the dataset(s) from below links.
  - SODA-D: [OneDrvie](https://nwpueducn-my.sharepoint.com/:f:/g/personal/gcheng_nwpu_edu_cn/EhXUvvPZLRRLnmo0QRmd4YUBvDLGMixS11_Sr6trwJtTrQ?e=PellK6); [BaiduNetDisk](https://pan.baidu.com/s/1aqmqkG_GzDKBTM_NK5ecqA?pwd=SODA)
  - SODA-A: [OneDrvie](https://nwpueducn-my.sharepoint.com/:f:/g/personal/gcheng_nwpu_edu_cn/EqJBjheHJXVOrMQWcr8dOt0BZJAfn1bkUSEQwIKHkVE0Vg?e=Hhcnoi); [BaiduNetDisk](https://pan.baidu.com/s/1G6x-hslv5C02WikZCzsNlA?pwd=SODA)
@@ -30,7 +30,7 @@ pip install -v -e .
 ```
 Moreover, please refer to [SODA-mmrotate](https://github.com/shaunyuan22/SODA-mmrotate) for MMRotate installation if you want to perform evaluation on the SODA-A dataset.
 
-## Training
+## 🚀 Training
  - Single GPU:
 ```
 python ./tools/train.py ${CONFIG_FILE} 
@@ -41,7 +41,7 @@ python ./tools/train.py ${CONFIG_FILE}
 bash ./tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM}
 ```
 
-## Evaluation
+## 📈 Evaluation
  - Single GPU:
 ```
 python ./tools/test.py ${CONFIG_FILE} ${WORK_DIR} --eval bbox
@@ -83,3 +83,15 @@ bash ./tools/dist_test.sh ${CONFIG_FILE} ${WORK_DIR} ${GPU_NUM} --eval bbox
 | Oriented RCNN | $1 \times$ | 34.4 | 70.7 | 28.6 | 12.5 | 28.6 | 44.5 | 36.7 | 
 | DODet | $1 \times$ | 31.6 | 68.1 | 23.4 | 11.3 | 26.3 | 41.0 | 33.5 | 
 | Ours | $1 \times$ | 34.4 | 73.1 | 26.1 | 13.5 | 29.3 | 44.0 | 35.9 | 
+
+## 📚  References
+Please cite our work if you find our work and codes helpful for your research.
+```
+@article{cfinet,
+  title={Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning},
+  author={Yuan, Xiang and Cheng, Gong and Yan, Kebing and Zeng, Qinghua and Han, Junwei},
+  journal={arXiv preprint arXiv:2308.09534},
+  year={2023}
+}
+```
+
