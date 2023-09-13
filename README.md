@@ -22,7 +22,7 @@ Moreover, this repository is build on MMDetection and MMrotate, please refer to 
 -->
 
 ## Install
-This repository is build on MMDetection 2.23.0 which can be installed by running the following scripts. Before setting up the environment, please ensure that all dependencies have been satisfied.
+This repository is build on MMDetection 2.23.0 and please run the following scripts to install MMDetection. Please ensure that all dependencies have been satisfied before setting up the environment.
 ```
 git clone https://github.com/shaunyuan22/CFINet
 cd CFINet
