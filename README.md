@@ -3,7 +3,7 @@
 ## :loudspeaker: Introduction
 This is the official implementation of our paper titled "Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning", which has been accepted by ICCV 2023 and the preprint version has been submitted to [arXiv](https://arxiv.org/abs/2308.09534).
 
-## Dependencies
+## :ferris_wheel: Dependencies
  - CUDA 11.3
  - Python 3.8
  - PyTorch 1.10.0
@@ -21,7 +21,7 @@ More details about SODA please refer to the Dataset [Homepage](https://shaunyuan
 Moreover, this repository is build on MMDetection and MMrotate, please refer to [SODA-mmdetection](https://github.com/shaunyuan22/SODA-mmdetection) and [SODA-mmrotate](https://github.com/shaunyuan22/SODA-mmrotate) for the preparation of corresponding environment.
 -->
 
-## Install
+## 🛠️ Install
 This repository is build on MMDetection 2.23.0 and please run the following scripts to install MMDetection. Please ensure that all dependencies have been satisfied before setting up the environment.
 ```
 git clone https://github.com/shaunyuan22/CFINet
@@ -53,7 +53,7 @@ bash ./tools/dist_test.sh ${CONFIG_FILE} ${WORK_DIR} ${GPU_NUM} --eval bbox
 ```
 
 
-## Result
+## :trophy: Result
 ### Result on SODA-D
 | **Method** | **Schedule** | **$AP$** | **$AP_{50}$** | **$AP_{75}$** | **$AP_{eS}$** | **$AP_{rS}$** | **$AP_{gS}$** | **$AP_N$** |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
