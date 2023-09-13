@@ -95,3 +95,6 @@ Please cite our work if you find our work and codes helpful for your research.
 }
 ```
 
+## :e-mail: Contact
+If you have any problems about this repo or SODA benchmark, please be free to contact us at shaunyuan@mail.nwpu.edu.cn 😉
+
