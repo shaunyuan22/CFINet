@@ -33,3 +33,7 @@ Our work is based on the large-scale small object detection benchmark **SODA**, 
 | RFLA | $1 \times$ | 29.7 | 60.2 | 25.2 | 13.2 | 26.9 | 35.4 | 44.6 | 
 | Ours | $1 \times$ | 30.7 | 60.8 | 26.7 | 14.7 | 27.8 | 36.4 | 44.6 | 
 
+| **Method** | RetinaNet | FCOS | RepPoints | ATSS | YOLOX | CornerNet | CenterNet | Deformable-DETR | Sparse RCNN | Faster RCNN | Cascade RPN | RFLA | Ours | 
+
+
+
