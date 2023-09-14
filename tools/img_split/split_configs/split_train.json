@@ -1,0 +1,18 @@
+{
+  "nproc": 10,
+  "mode": "train",
+  "oriImgDir": "path to original images",
+  "oriAnnDir": "path to original Annotations",
+  "patchH": 800,
+  "patchW": 800,
+  "stepSzH": 150,
+  "stepSzW": 150,
+  "padVal": [
+    0, 0, 0
+  ],
+  "ignFillVal": [
+    0, 0, 0
+  ],
+  "interAreaIgnThr": 0.40,
+  "splDir": "path to save images and annotations"
+}
