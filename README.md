@@ -11,7 +11,7 @@ This is the official implementation of our paper titled "Small Object Detection 
  - mmcv-full 1.5.0
 
 ## :open_file_folder: Datasets
-Our work is based on the large-scale small object detection benchmark **SODA**, which comprises two sub datasets SODA-D and SODA-A. Download the dataset(s) from below links.
+Our work is based on the large-scale small object detection benchmark **SODA**, which comprises two sub datasets **SODA-D** and **SODA-A**. Download the dataset(s) from corresponding links below.
  - SODA-D: [OneDrvie](https://nwpueducn-my.sharepoint.com/:f:/g/personal/gcheng_nwpu_edu_cn/EhXUvvPZLRRLnmo0QRmd4YUBvDLGMixS11_Sr6trwJtTrQ?e=PellK6); [BaiduNetDisk](https://pan.baidu.com/s/1aqmqkG_GzDKBTM_NK5ecqA?pwd=SODA)
  - SODA-A: [OneDrvie](https://nwpueducn-my.sharepoint.com/:f:/g/personal/gcheng_nwpu_edu_cn/EqJBjheHJXVOrMQWcr8dOt0BZJAfn1bkUSEQwIKHkVE0Vg?e=Hhcnoi); [BaiduNetDisk](https://pan.baidu.com/s/1G6x-hslv5C02WikZCzsNlA?pwd=SODA)
 
