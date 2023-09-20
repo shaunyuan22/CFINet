@@ -89,7 +89,7 @@ bash ./tools/dist_test.sh ${CONFIG_FILE} ${WORK_DIR} ${GPU_NUM} --eval bbox
 | DODet | $1 \times$ | 31.6 | 68.1 | 23.4 | 11.3 | 26.3 | 41.0 | 33.5 | 
 | Ours | $1 \times$ | 34.4 | 73.1 | 26.1 | 13.5 | 29.3 | 44.0 | 35.9 | 
 
-## 📚  References
+## 📚  Citation
 Please cite our work if you find our work and codes helpful for your research.
 ```
 @article{cfinet,
