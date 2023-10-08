@@ -92,11 +92,13 @@ bash ./tools/dist_test.sh ${CONFIG_FILE} ${WORK_DIR} ${GPU_NUM} --eval bbox
 ## 📚  Citation
 Please cite our work if you find our work and codes helpful for your research.
 ```
-@article{cfinet,
-  title={Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning},
-  author={Yuan, Xiang and Cheng, Gong and Yan, Kebing and Zeng, Qinghua and Han, Junwei},
-  journal={arXiv preprint arXiv:2308.09534},
-  year={2023}
+@InProceedings{CFINet,
+    author    = {Yuan, Xiang and Cheng, Gong and Yan, Kebing and Zeng, Qinghua and Han, Junwei},
+    title     = {Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {6317-6327}
 }
 ```
 
