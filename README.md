@@ -1,7 +1,7 @@
 # [ICCV 2023] Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning
 
 ## :loudspeaker: Introduction
-This is the official implementation of our paper titled "Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning", which has been accepted by ICCV 2023 and the preprint version has been submitted to [arXiv](https://arxiv.org/abs/2308.09534).
+This is the official implementation of our paper titled "Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning", which has been accepted by [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_Small_Object_Detection_via_Coarse-to-fine_Proposal_Generation_and_Imitation_Learning_ICCV_2023_paper.html).
 
 ## :ferris_wheel: Dependencies
  - CUDA 11.3
