@@ -366,7 +366,7 @@ class SODADSplit(object):
             bbox = [int(b) for b in ann['bbox']]
             xmin, ymin, width, height = bbox
             xMin = min(xMin, xmin)
-            yMin = max(yMin, ymin)
+            yMin = min(yMin, ymin)
             xMax = max(xMax, xmin+width)
             yMax = max(yMax, ymin+height)
         return [xMin, yMin, xMax, yMax]
